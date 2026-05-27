@@ -1,0 +1,233 @@
+[
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is the difference between a list and a tuple in Python?",
+    "answer": "Lists are mutable (can be changed after creation) and use square brackets []. Tuples are immutable (cannot be changed) and use parentheses (). Lists are used for dynamic data, tuples for fixed data. Tuples are slightly faster and can be used as dictionary keys.",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "Explain OOP concepts with examples.",
+    "answer": "OOP has 4 pillars: 1) Encapsulation - hiding data inside a class (e.g., private variables). 2) Inheritance - child class inherits parent class properties. 3) Polymorphism - same method behaves differently (method overriding). 4) Abstraction - hiding complexity, showing only essentials (abstract classes).",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is time complexity of binary search?",
+    "answer": "O(log n). Binary search halves the search space at each step. For n=1000 elements, it takes at most 10 comparisons (log2(1000) ≈ 10). This makes it much faster than linear search O(n).",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is a deadlock? How can it be prevented?",
+    "answer": "Deadlock occurs when two or more threads are waiting for each other to release resources, causing all to be stuck. Prevention strategies: 1) Lock ordering - always acquire locks in same order. 2) Lock timeout - release lock if waiting too long. 3) Deadlock detection algorithms. 4) Avoid nested locks.",
+    "difficulty": "Hard"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "Explain REST API principles.",
+    "answer": "REST (Representational State Transfer) principles: 1) Stateless - each request contains all needed info. 2) Client-Server separation. 3) Uniform Interface - standard HTTP methods (GET, POST, PUT, DELETE). 4) Cacheable responses. 5) Layered system. URLs represent resources, HTTP methods represent actions.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is the difference between SQL JOIN types?",
+    "answer": "INNER JOIN: returns rows matching in both tables. LEFT JOIN: all rows from left + matching from right (NULL if no match). RIGHT JOIN: all rows from right + matching from left. FULL OUTER JOIN: all rows from both tables. CROSS JOIN: cartesian product of both tables.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is a hash table and how does it work?",
+    "answer": "A hash table stores key-value pairs. A hash function converts the key into an index in an array. Average O(1) time for insert, delete, and lookup. Collisions (two keys mapping to same index) are handled by chaining (linked list at each index) or open addressing (find next empty slot).",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "Explain the difference between process and thread.",
+    "answer": "Process: independent program with its own memory space. Thread: lightweight unit within a process, shares memory with other threads. Threads are faster to create and communicate. Processes are safer (crash doesn't affect others). Multithreading uses threads for concurrency within one program.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is a stack overflow error?",
+    "answer": "Stack overflow occurs when the call stack exceeds its limit, usually due to infinite recursion (a function calling itself without a base case). Each function call adds a frame to the stack. When the stack is full, the program crashes with StackOverflowError. Fix: add proper base case or use iterative approach.",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "SDE",
+    "category": "Technical",
+    "question": "What is Git and what is the difference between git merge and git rebase?",
+    "answer": "Git is a distributed version control system. Merge: combines two branches, creates a new merge commit, preserves full history. Rebase: moves commits from one branch onto another, creates linear history, no merge commit. Merge is safer for shared branches, rebase is cleaner for local feature branches.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "Tell me about yourself.",
+    "answer": "Structure: Present-Past-Future. Start with current role/education, mention 2-3 key achievements, connect your past experience to why you're interested in THIS role. Keep it 90 seconds. End with why you're excited about this opportunity. Example: 'I'm a final year CSE student at X university with strong background in Python and web development. I've built projects like Y which helped me develop skills in Z. I'm passionate about solving real-world problems which is why I'm excited about this role at your company.'",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "What is your greatest weakness?",
+    "answer": "Choose a REAL weakness that you're actively working on (not a strength in disguise). Structure: state the weakness, explain how you recognized it, describe the steps you're taking to improve. Example: 'I used to struggle with public speaking. I recognized this would limit my career, so I joined my college debate club and started presenting in team meetings. I've improved significantly over the past year.'",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "Why do you want to work here?",
+    "answer": "Research the company beforehand. Structure: 1) Mention something specific about the company (product, culture, mission). 2) Connect it to your skills/interests. 3) Explain what value you'll add. Avoid generic answers like 'good salary' or 'brand name'. Example: 'Your company's work on AI-powered products aligns with my passion for building user-centric technology. I've followed your recent launch of X and I believe my skills in Y can contribute to your team's goals.'",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "Describe a situation where you handled a conflict in a team.",
+    "answer": "Use STAR method: Situation (briefly describe the conflict), Task (your role), Action (specific steps you took - listen to both sides, find common ground, communicate clearly), Result (positive outcome). Key: focus on your behavior, not blaming others. Show empathy, communication, and problem-solving skills.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "Where do you see yourself in 5 years?",
+    "answer": "Show ambition but realism. Connect your 5-year goal to the role you're applying for. Example: 'In 5 years, I see myself as a senior engineer leading a small team, having developed deep expertise in backend systems. I want to start by mastering the fundamentals in this role, then gradually take ownership of larger projects. This company's growth trajectory gives me the opportunity to grow alongside it.'",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "Tell me about a time you failed. What did you learn?",
+    "answer": "Use STAR method. Choose a real failure (not trivial). Focus more on what you LEARNED than the failure itself. Show self-awareness and growth mindset. Example: 'In my 3rd year project, I underestimated the time needed for testing and we missed our demo deadline. I learned to always build buffer time in planning, break tasks into smaller milestones, and communicate early when timelines are at risk.'",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "What motivates you?",
+    "answer": "Be authentic. Common motivators: solving challenging problems, seeing impact of your work, continuous learning, collaboration. Connect to the role. Example: 'I'm motivated by seeing tangible impact from my work. When I built a college management system that faculty actually started using daily, that feeling of solving a real problem is what drives me. I'm also motivated by learning new technologies and pushing my own limits.'",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "ALL",
+    "category": "HR",
+    "question": "How do you handle pressure and tight deadlines?",
+    "answer": "Show that you stay calm and organized. Structure: 1) Prioritize tasks by urgency and importance. 2) Break big tasks into smaller chunks. 3) Communicate proactively if you need help. 4) Give an example. Avoid saying you work great under pressure without evidence. Mention specific techniques like time-blocking, to-do lists, or the Pomodoro technique.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Technical",
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "answer": "Supervised learning: model trained on labeled data (input-output pairs). Goal is to predict output for new inputs. Examples: classification (spam detection), regression (house price prediction). Unsupervised learning: no labels, model finds patterns in data. Examples: clustering (customer segmentation with K-means), dimensionality reduction (PCA).",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Technical",
+    "question": "Explain what overfitting is and how to prevent it.",
+    "answer": "Overfitting: model performs well on training data but poorly on new data. It memorizes noise instead of learning patterns. Prevention methods: 1) Cross-validation. 2) Regularization (L1/L2). 3) Reduce model complexity. 4) Get more training data. 5) Dropout (for neural networks). 6) Early stopping. Signs: low training error, high test error.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Technical",
+    "question": "What is the difference between mean, median, and mode?",
+    "answer": "Mean: average of all values (sum/count) - sensitive to outliers. Median: middle value when sorted - robust to outliers, use for skewed data. Mode: most frequent value - used for categorical data. Example: salaries [10k,12k,11k,100k] - Mean=33k (misleading), Median=11.5k (better represents typical salary).",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Technical",
+    "question": "How would you handle missing values in a dataset?",
+    "answer": "Options: 1) Delete rows with missing values (if < 5% missing and random). 2) Mean/median imputation for numerical columns. 3) Mode imputation for categorical columns. 4) Forward/backward fill for time series. 5) Predict missing values using ML model. 6) Create a 'missing' category. Choice depends on: amount of missing data, whether missing is random or systematic, and impact on analysis.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "Data Analyst",
+    "category": "Technical",
+    "question": "What is a p-value in hypothesis testing?",
+    "answer": "P-value is the probability of getting results as extreme as observed, assuming null hypothesis is true. If p-value < 0.05 (significance level), reject null hypothesis (result is statistically significant). If p-value > 0.05, fail to reject null hypothesis. Common mistake: p-value is NOT the probability that null hypothesis is true.",
+    "difficulty": "Hard"
+  },
+  {
+    "role": "Frontend Developer",
+    "category": "Technical",
+    "question": "What is the difference between null and undefined in JavaScript?",
+    "answer": "undefined: variable declared but not assigned a value. JavaScript sets this automatically. null: intentional absence of value, set explicitly by programmer. typeof undefined = 'undefined'. typeof null = 'object' (historical bug). Use null when you intentionally want 'no value', undefined appears automatically.",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "Frontend Developer",
+    "category": "Technical",
+    "question": "Explain how the event loop works in JavaScript.",
+    "answer": "JavaScript is single-threaded. Event loop manages async operations: 1) Call Stack executes synchronous code. 2) When async operation (setTimeout, API call) is called, it goes to Web APIs. 3) When complete, callback goes to Callback Queue. 4) Event loop checks if call stack is empty, then moves callback from queue to stack. This is why async code runs after sync code.",
+    "difficulty": "Hard"
+  },
+  {
+    "role": "Frontend Developer",
+    "category": "Technical",
+    "question": "What is the difference between CSS Flexbox and Grid?",
+    "answer": "Flexbox: one-dimensional layout (row OR column). Best for components in a single direction - navbar, button groups, centering elements. Grid: two-dimensional layout (rows AND columns). Best for page-level layouts, image galleries. Use Flexbox for components, Grid for page layout. They can be used together.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "Frontend Developer",
+    "category": "Technical",
+    "question": "What is React and what problem does it solve?",
+    "answer": "React is a JavaScript library for building user interfaces using reusable components. Problems it solves: 1) DOM manipulation was slow and complex - React uses Virtual DOM for efficient updates. 2) Code organization - component-based architecture makes large apps manageable. 3) State management - React handles UI state changes efficiently. 4) Reusability - components can be reused across the app.",
+    "difficulty": "Easy"
+  },
+  {
+    "role": "SDE",
+    "category": "System Design",
+    "question": "How would you design a URL shortener like bit.ly?",
+    "answer": "Components: 1) API: POST /shorten (returns short code), GET /{code} (redirects to original). 2) Database: map short code → long URL (use NoSQL like Redis for fast lookup). 3) Short code generation: base62 encoding of auto-increment ID or MD5 hash (first 6 chars). 4) Scale: CDN for redirects, caching hot URLs, database sharding. Handle collisions in hash approach.",
+    "difficulty": "Hard"
+  },
+  {
+    "role": "SDE",
+    "category": "System Design",
+    "question": "What is load balancing and why is it needed?",
+    "answer": "Load balancer distributes incoming requests across multiple servers. Needed because: 1) Single server can't handle millions of users. 2) Provides high availability - if one server fails, others handle traffic. 3) Improves response time. Algorithms: Round Robin (each server in turn), Least Connections (server with fewest active connections), IP Hash (same user always goes to same server).",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "AI/ML Engineer",
+    "category": "Technical",
+    "question": "What is RAG (Retrieval Augmented Generation)?",
+    "answer": "RAG combines retrieval and generation: 1) User asks a question. 2) System searches a knowledge base (vector database) for relevant documents. 3) Retrieved documents are sent to LLM along with the question. 4) LLM generates answer grounded in retrieved context. Benefits: reduces hallucination, allows LLM to access up-to-date/private data without retraining. Used in document Q&A, chatbots.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "AI/ML Engineer",
+    "category": "Technical",
+    "question": "What is the difference between fine-tuning and prompt engineering?",
+    "answer": "Prompt Engineering: crafting input prompts to guide LLM behavior without changing model weights. Fast, cheap, no training needed. Limitations: context window size, can't teach new knowledge. Fine-tuning: updating model weights on custom dataset. Teaches new knowledge/style, consistent behavior. Expensive, requires data and compute. Use prompt engineering first, fine-tune only if needed.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "AI/ML Engineer",
+    "category": "Technical",
+    "question": "What is a vector database and why is it used in AI?",
+    "answer": "Vector database stores data as high-dimensional vectors (embeddings). Used in AI because: 1) Text/images are converted to vectors by embedding models. 2) Semantic search - find similar meaning even without exact keyword match. 3) RAG pipelines - retrieve relevant context for LLMs. Popular options: FAISS (open source), Chroma, Pinecone, Weaviate. Core operation: cosine similarity search.",
+    "difficulty": "Medium"
+  },
+  {
+    "role": "AI/ML Engineer",
+    "category": "Technical",
+    "question": "What are hallucinations in LLMs and how to reduce them?",
+    "answer": "Hallucinations: LLM generates confident but factually incorrect information. Causes: training data patterns, lack of grounding. Reduction methods: 1) RAG - ground responses in retrieved documents. 2) Temperature = 0 for factual tasks. 3) Ask model to say 'I don't know' when uncertain. 4) Prompt with 'only answer based on provided context'. 5) Fact-checking pipeline. 6) Fine-tune on domain data.",
+    "difficulty": "Hard"
+  }
+]
