@@ -136,7 +136,7 @@ InterviewTrainerAgent solves this by:
 
 ### 🔀 LangFlow Agent Pipeline
 
-![LangFlow Canvas](assets/langflow_canvas.png)
+![LangFlow Canvas](langflow_canvas..png)
 
 ### 💬 Live Chat Interaction
 
@@ -144,7 +144,7 @@ InterviewTrainerAgent solves this by:
 
 ### 🗃️ Chroma DB Vector Store
 
-![Knowledge Base](assets/knowledge_base.png)
+![Knowledge Base](chroma_db.png)
 
 ---
 
