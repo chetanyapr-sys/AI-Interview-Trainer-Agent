@@ -1,4 +1,4 @@
-<img width="1589" height="853" alt="chat_demo" src="https://github.com/user-attachments/assets/4b82554d-12af-4a74-b7de-c777baed17e0" /># 🎯 InterviewTrainerAgent — Agentic AI Interview Coach
+# 🎯 InterviewTrainerAgent — Agentic AI Interview Coach
 
 <div align="center">
 
